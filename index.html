@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" type="text/css" href="./css/lotto.css">
+
+  <title>Lotto Stats</title>
+</head>
+
+<body>
+  <div id="wrapper">
+    <h1>
+      Lotto Stats
+      <form onsubmit="event.preventDefault()">
+        <label for="numOfJackpots">Top Jackpots:
+          <input type="number" value="20" id="numOfJackpots" />
+        </label>
+        <label for="numOfHotDrawings">Hottest drawings:
+          <input type="number" value="200" id="numOfHotDrawings" />
+        </label>
+      </form>
+    </h1>
+
+    <h2>Mega Millions</h2>
+    <div class="stats" id="megaMillions"></div>
+
+    <h2>Power Ball</h2>
+    <div class="stats" id="powerBall"></div>
+  </div>
+
+  <script type="module" src="./js/lotto.js"></script>
+</body>
+
+</html>

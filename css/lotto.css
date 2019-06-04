@@ -1,0 +1,66 @@
+body {
+  margin: 0 10px;
+  background-color: #404040;
+}
+#wrapper {
+  margin: 10px auto;
+  max-width: 1176px;
+}
+h1, h2 {
+  color: #f1f1f1;
+}
+h2 {
+  margin-top:35px;
+}
+h3 {
+  margin: 20px 0 5px 0;
+}
+label {
+  float: right;
+  font-weight: 100;
+  font-size: 18px;
+}
+input {
+  padding: 3px;
+  width: 50px;
+  margin-right: 10px;
+}
+.stats {
+  background-color: #d2d2d2;
+  padding: 5px 15px 15px 15px;
+  border-radius: 5px;
+}
+.number {
+  width: 20px;
+  padding: 4px;
+  border: solid 1px #909090;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 0;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  box-shadow: 3px 6px #909090;
+}
+.count {
+  font-weight: bold;
+  width: 23px;
+  padding: 4px;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 5px 5px 0;
+}
+.special {
+  background-color: #d40101;
+  border-color: #909090;
+  color: #fff;
+  font-weight: bold;
+}
+.jackpot {
+  padding: 4px 6px;
+  background-color: #40d035;
+  border: solid 1px #909090;
+  margin: 0 6px 6px 0;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 2px 3px #909090;
+}
